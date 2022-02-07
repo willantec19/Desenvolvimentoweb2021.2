@@ -1,0 +1,21 @@
+<div class="container-fluid col-10 mt-2">
+    <div class="justify-content-center">
+        <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
+            <h3>Cadastro</h3>
+            
+            <div class="card">
+                <div class="card-body">
+                <h5 class="text-center mb-4">Nova Categoria</h5>
+                <form class="form-card" action="/editar-categoria" method="post">
+                    <div class="align-center">
+                        <input type="hidden" name="id" value="{{categorias._id}}">
+                        <div class="form-group col-sm-6 mt-2 flex-column d-flex"> <label class="form-control-label px-4"></span></label> <input type="text" id="nome" name="nome" placeholder="Nome" value="{{categorias.nome}}"> </div>
+                        
+                    </div>
+                    <div class="row justify-content-end">
+                      <div class="form-group col-sm-6"> <button class="btn-block btn-primary">Editar</button> </div>
+                    </div>
+                </form>
+            </div></div>
+        </div>
+        </div>
