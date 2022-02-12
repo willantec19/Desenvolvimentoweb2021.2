@@ -18,11 +18,11 @@ const Medico = new Schema({
         type: String,
         required: true
     },
-     area:{
+    /*  area:{
         type: moongoose.ObjectId,
         ref:'categorias',
         required: true
-    } 
+    }  */
 });
 
 moongoose.model("medicos", Medico)

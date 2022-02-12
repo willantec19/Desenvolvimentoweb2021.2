@@ -10,8 +10,9 @@ router.get('/pokemons', (req, res)=>{
 });
 
 router.get('/pokemons/:id', (req, res)=>{
-   const ide = req.params.id;
+   
   for(let pokemon of pokemons){
+    const ide = req.params.id;
       if(Number(pokemon.id) === Number(ide)){
           //console.log(pokemon);
             res.render('tipos',{

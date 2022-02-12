@@ -127,8 +127,8 @@ router.post('/cadastro-medicos', (req, res)=>{
             nome: req.body.nome,
             email: req.body.email,
             celular: req.body.celular,
-            CRM: req.body.CRM,
-            area: tipo
+            CRM: req.body.CRM
+           // area: tipo
         }
         
         new medico(novoMedico).save().then(()=>{

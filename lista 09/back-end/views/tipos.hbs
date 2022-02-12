@@ -1,0 +1,47 @@
+
+       
+       <div  class="card shadow-sm">
+           <img src="{{pokemon.cover}}" width="200" class="rounded mx-auto d-block" alt="{{pokemon.nome}}">
+          <div class="card-body">
+                <h5 class="card-title text-center">{{pokemon.nome}}</h5>
+            </div>
+            <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-secondary" disabled>{{pokemon.tipo}}</button>
+                  
+            </div>
+                Peso:  {{pokemon.peso}} lbs <br>
+                Altura: {{pokemon.altura}}"<br>
+                Base stats: <br>
+                 
+                PvMax: 
+               <div class="progress" style="width: 150px;" >
+                    <div class="progress-bar" role="progressbar" style="width: {{pokemon.pvMax}}%" aria-valuenow="{{pokemon.pvMax}}" aria-valuemin="0"></div>
+                </div>
+                Ataque:
+                <div class="progress" style="width: 150px;" >
+                    <div class="progress-bar" role="progressbar" style="width: {{pokemon.ataque}}%" aria-valuenow="{{pokemon.ataque}}" aria-valuemin="0"></div>
+                </div>
+                Defesa:
+                <div class="progress" style="width:  150px;" >
+                    <div class="progress-bar" role="progressbar" style="width: {{pokemon.defesa}}%" aria-valuenow="{{pokemon.defesa}}" aria-valuemin="0"></div>
+                </div>
+                Ataque Esp.:
+                <div class="progress" style="width:  150px;" >
+                    <div class="progress-bar" role="progressbar" style="width: {{pokemon.ataque_especial}}%" aria-valuenow="{{pokemon.ataque_especial}}" aria-valuemin="0"></div>
+                </div>
+                Defesa Esp.:
+                <div class="progress" style="width:  150px;" >
+                    <div class="progress-bar" role="progressbar" style="width: {{pokemon.defesa_especial}}%" aria-valuenow="{{pokemon.defesa_especial}}" aria-valuemin="0"></div>
+                </div>
+                Velocidade:
+                <div class="progress" style="width:  150px;" >
+                    <div class="progress-bar" role="progressbar" style="width: {{pokemon.velocidade}}%" aria-valuenow="{{pokemon.velocidade}}" aria-valuemin="0"></div>
+                </div>
+                 
+    </div>
+            
+       </div>
+         
+
+
+  
